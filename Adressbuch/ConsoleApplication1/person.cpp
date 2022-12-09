@@ -31,27 +31,92 @@ bool Person::setForname(std::string forename, bool overwrite)
 
 bool Person::setSurname(std::string surname, bool overwrite)
 {
-	return false;
+	if (overwrite)
+	{
+		this->surname = surname;
+		return true;
+	}
+	else
+	{
+		if (this->surname.length() == 0)
+		{
+			this->surname = surname;
+			return true;
+		}
+		return false;
+	}
 }
 
 bool Person::setBirthday(std::string birthday, bool overwrite)
 {
-	return false;
+	if (overwrite)
+	{
+		this->birthday = birthday;
+		return true;
+	}
+	else
+	{
+		if (this->birthday.length() == 0)
+		{
+			this->birthday = birthday;
+			return true;
+		}
+		return false;
+	}
 }
 
 bool Person::setAddress(std::string address, bool overwrite)
 {
-	return false;
+	if (overwrite)
+	{
+		this->address = address;
+		return true;
+	}
+	else
+	{
+		if (this->address.length() == 0)
+		{
+			this->address = address;
+			return true;
+		}
+		return false;
+	}
 }
 
 bool Person::setCity(std::string city, bool overwrite)
 {
-	return false;
+	if (overwrite)
+	{
+		this->city = city;
+		return true;
+	}
+	else
+	{
+		if (this->city.length() == 0)
+		{
+			this->city = city;
+			return true;
+		}
+		return false;
+	}
 }
 
 bool Person::setPostalCode(std::string postalCode, bool overwrite)
 {
-	return false;
+	if (overwrite)
+	{
+		this->postalCode = postalCode;
+		return true;
+	}
+	else
+	{
+		if (this->postalCode.length() == 0)
+		{
+			this->postalCode = postalCode;
+			return true;
+		}
+		return false;
+	}
 }
 
 

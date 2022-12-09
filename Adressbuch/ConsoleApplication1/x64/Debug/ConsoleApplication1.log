@@ -1,2 +1,3 @@
 ﻿  Adressbuch.cpp
-F:\VisualStudio\C++\Adressbuch\ConsoleApplication1\Adressbuch.cpp : fatal  error C1090: Fehler beim PDB-API-Aufruf, Fehlercode "3": F:\VisualStudio\C++\Adressbuch\ConsoleApplication1\x64\Debug\vc143.pdb
+F:\VisualStudio\C++\Adressbuch\ConsoleApplication1\Adressbuch.cpp(21,58): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  ConsoleApplication1.vcxproj -> F:\VisualStudio\C++\Adressbuch\x64\Debug\Adressbuch.exe
